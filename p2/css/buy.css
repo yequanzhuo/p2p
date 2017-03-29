@@ -1,0 +1,50 @@
+.img-box3 {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    /* background-color: #f0f0f0; */
+    width: 70%;
+    /* height: 70%; */
+}
+.img-box3 h1,
+.img-box3 .h1 {
+    color: inherit;
+}
+.img-box3 p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.img-box3 > hr {
+    border-top-color: #d5d5d5;
+}
+.container .img-box3,
+.container-fluid .img-box3 {
+    border-radius: 6px;
+    /* padding-left: 30px; */
+}
+.img-box3 .container {
+    max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .img-box3 {
+        padding: 48px 0;
+    }
+    .container .img-box3 {
+        /* margin-left: 60px; */
+        padding-right: 10px;
+        padding-left: 10px;
+        border: 1px solid #e1e1e1;
+    }
+    .img-box3 h1,
+    .img-box3 .h1 {
+        font-size: 63px;
+    }
+}
+
+
+
+/*商品區域樣式*/
+.buy-position{
+padding: 10px 0;
+}
